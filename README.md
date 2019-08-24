@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is for the Udemy course: Modern React with Redux [2019 Update].
 
 ## Available Scripts
 
