@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is for the Udemy course: Modern React with Redux [2019 Update].
 
+## Project Setup - YOUTUBE API
+
+This project requires a file that contains an api key for youtube data api. The file should be stored in `src/api/youtube'js`. Use the following exmaple for the file:
+
+```
+const KEY = 'YOUR-API-KEY-HERE'
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
