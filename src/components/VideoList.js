@@ -1,8 +1,12 @@
 import React from 'react';
-import { tsPropertySignature } from '@babel/types';
+import VideoItem from './VideoItem';
+
+const showVideos = videos => {
+  return videos.map(video => <VideoItem />);
+};
 
 const VideoList = ({ videos }) => {
-  return <div>{videos.length}</div>;
+  return <div>{showVideos(videos)}</div>;
 };
 
 export default VideoList;
