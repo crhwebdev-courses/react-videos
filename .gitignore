@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # keys
-src/apis/youtube.js
+src/apis/keys.js
