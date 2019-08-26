@@ -9,7 +9,7 @@ const showVideos = videos => {
 
 const VideoList = ({ videos }) => {
   console.log(videos);
-  return <div>{showVideos(videos)}</div>;
+  return <div className="ui relaxed divided list">{showVideos(videos)}</div>;
 };
 
 export default VideoList;
