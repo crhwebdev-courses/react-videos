@@ -4,10 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Project Setup - YOUTUBE API
 
-This project requires a file that contains an api key for youtube data api. The file should be stored in `src/api/youtube'js`. Use the following exmaple for the file:
+This project requires a file that contains an api key for youtube data api. The file should be stored in `src/api/keys.js`. Use the following exmaple for the file:
 
 ```
-const KEY = 'YOUR-API-KEY-HERE'
+export default {
+  youtubeKey: 'YOUR YOUTUBE API KEY'
+};
 ```
 
 ## Available Scripts
