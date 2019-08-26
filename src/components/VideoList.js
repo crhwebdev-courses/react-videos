@@ -1,7 +1,8 @@
 import React from 'react';
+import { tsPropertySignature } from '@babel/types';
 
-const VideoList = () => {
-  return <div>VideoList</div>;
+const VideoList = props => {
+  return <div>{props.videos.length}</div>;
 };
 
 export default VideoList;
