@@ -1,7 +1,7 @@
 import React from 'react';
 
-const VideoDetail = props => {
-  return <div>VideoDetail</div>;
+const VideoDetail = ({ video }) => {
+  return <div>{video && video.snippet.title}</div>;
 };
 
 export default VideoDetail;
